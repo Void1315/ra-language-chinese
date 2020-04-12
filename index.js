@@ -26,6 +26,8 @@ module.exports = {
             false: '否',
         },
         page: {
+            empty: '没有 %{name} 数据',
+            invite: '您想要添加一个吗?',
             list: '%{name} 列表',
             edit: '%{name} #%{id}',
             show: '%{name} #%{id}',
@@ -37,22 +39,17 @@ module.exports = {
         },
         input: {
             file: {
-                upload_several:
-                    '将文件集合拖拽到这里, 或点击这里选择文件集合.',
+                upload_several: '将文件集合拖拽到这里, 或点击这里选择文件集合.',
                 upload_single: '将文件拖拽到这里, 或点击这里选择文件.',
             },
             image: {
-                upload_several:
-                    '将图片文件集合拖拽到这里, 或点击这里选择图片文件集合.',
-                upload_single:
-                    '将图片文件拖拽到这里, 或点击这里选择图片文件.',
+                upload_several: '将图片文件集合拖拽到这里, 或点击这里选择图片文件集合.',
+                upload_single: '将图片文件拖拽到这里, 或点击这里选择图片文件.',
             },
             references: {
                 all_missing: '未找到参考数据.',
-                many_missing:
-                    '至少有一条参考数据不再可用.',
-                single_missing:
-                    '关联的参考数据不再可用.',
+                many_missing: '至少有一条参考数据不再可用.',
+                single_missing: '关联的参考数据不再可用.',
             },
         },
         message: {
@@ -60,21 +57,17 @@ module.exports = {
             no: '否',
             are_you_sure: '您确定操作?',
             about: '关于',
-            not_found:
-                '您输入了错误的URL或者错误的链接.',
+            not_found: '您输入了错误的URL或者错误的链接.',
             loading: '正在加载页面, 请稍候',
             invalid_form: '表单输入无效. 请检查错误提示',
             delete_title: '删除 %{name} #%{id}',
             delete_content: '您确定要删除该条目?',
-            bulk_delete_title:
-                '删除 %{name} |||| 删除 %{smart_count}项 %{name} ',
-            bulk_delete_content:
-                '您确定要删除 %{name}? |||| 您确定要删除 %{smart_count} 项?',
+            bulk_delete_title: '删除 %{name} |||| 删除 %{smart_count}项 %{name} ',
+            bulk_delete_content: '您确定要删除 %{name}? |||| 您确定要删除 %{smart_count} 项?',
         },
         navigation: {
             no_results: '结果为空',
-            no_more_results:
-                '页码 %{page} 超出边界. 试试上一页.',
+            no_more_results: '页码 %{page} 超出边界. 试试上一页.',
             page_out_of_boundaries: '页码 %{page} 超出边界',
             page_out_from_end: '已到最末页',
             page_out_from_begin: '已到最前页',
@@ -99,7 +92,7 @@ module.exports = {
             item_doesnt_exist: '条目不存在',
             http_error: '与服务通信出错',
             canceled: '取消动作',
-            data_provider_error:'dataProvider错误. 请检查console的详细信息.',
+            data_provider_error: 'dataProvider错误. 请检查console的详细信息.',
             canceled: '取消动作',
         },
         validation: {

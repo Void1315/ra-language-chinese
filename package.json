@@ -1,6 +1,6 @@
 {
-    "name": "ra-language-chinese",
-    "version": "2.0.5",
+    "name": "@yhy/ra-language-chinese",
+    "version": "1.0.0",
     "description": "Chinese messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
     "main": "index.js",
     "scripts": {
@@ -16,7 +16,7 @@
         "react-admin",
         "translation"
     ],
-    "author": "c4w",
+    "author": "yhy",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/chen4w/ra-language-chinese/issues"
